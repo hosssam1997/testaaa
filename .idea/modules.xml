@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Automation Task/Automation Task/AutomationTask.iml" filepath="$PROJECT_DIR$/Automation Task/Automation Task/AutomationTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/{Hossam}-{Sabry}.iml" filepath="$PROJECT_DIR$/.idea/{Hossam}-{Sabry}.iml" />
+    </modules>
+  </component>
+</project>
