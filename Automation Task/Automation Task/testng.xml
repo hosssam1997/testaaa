@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite">
-    <test name="Test Basics 1">
+    <test name="Test Basics 1" annotations="JDK" parallel="tests">
+
+        <classes>
+            <class name="TestCases.SearchTestCases"/>
+            <class name="TestCases.WindowHandle_Demo"/>
+        </classes>
+    </test>
+    <test name="Test Basics 2">
 
         <classes>
             <class name="TestCases.SearchTestCases"/>
