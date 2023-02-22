@@ -4,9 +4,8 @@ import Pages.GooglePage;
 import Pages.SearchPage;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import zz.TestBases;
 
-public class ASearchTestCases extends TestBases {
+public class SearchTestCases extends TestBases {
 
     protected GooglePage googlePage;
     protected SearchPage searchPage;
