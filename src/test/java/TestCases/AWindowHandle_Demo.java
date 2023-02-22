@@ -1,21 +1,17 @@
 package TestCases;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
 import Utilities.Utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.bson.assertions.Assertions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class WindowHandle_Demo {
+public class AWindowHandle_Demo {
 
     public By visitLink = By.linkText("Visit W3Schools.com!");
     public By logo = By.cssSelector(".fa.fa-logo");
@@ -31,7 +27,7 @@ public class WindowHandle_Demo {
     }
     @Test
     public void test1() throws Exception {
-        WindowHandle_Demo oo = new WindowHandle_Demo();
+        AWindowHandle_Demo oo = new AWindowHandle_Demo();
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();

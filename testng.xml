@@ -4,15 +4,15 @@
     <test name="Test Basics 1" annotations="JDK" parallel="tests">
 
         <classes>
-            <class name="TestCases.SearchTestCases"/>
-            <class name="TestCases.WindowHandle_Demo"/>
+            <class name="TestCases.ASearchTestCases"/>
+            <class name="TestCases.AWindowHandle_Demo"/>
         </classes>
     </test>
     <test name="Test Basics 2">
 
         <classes>
-            <class name="TestCases.SearchTestCases"/>
-            <class name="TestCases.WindowHandle_Demo"/>
+            <class name="TestCases.ASearchTestCases"/>
+            <class name="TestCases.AWindowHandle_Demo"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
